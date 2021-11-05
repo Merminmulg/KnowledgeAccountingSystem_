@@ -127,6 +127,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\QuestionAnswerEntitiesController.cs" />
+    <Compile Include="Controllers\QuestionEntitiesController.cs" />
+    <Compile Include="Controllers\TaskEntitiesController.cs" />
     <Compile Include="Controllers\UserEntitiesController.cs" />
     <Compile Include="DAL\KaSInitializer.cs" />
     <Compile Include="DAL\SystemContext.cs" />
@@ -180,6 +183,21 @@
     <Content Include="Views\UserEntities\Details.cshtml" />
     <Content Include="Views\UserEntities\Edit.cshtml" />
     <Content Include="Views\UserEntities\Index.cshtml" />
+    <Content Include="Views\TaskEntities\Create.cshtml" />
+    <Content Include="Views\TaskEntities\Delete.cshtml" />
+    <Content Include="Views\TaskEntities\Details.cshtml" />
+    <Content Include="Views\TaskEntities\Edit.cshtml" />
+    <Content Include="Views\TaskEntities\Index.cshtml" />
+    <Content Include="Views\QuestionEntities\Create.cshtml" />
+    <Content Include="Views\QuestionEntities\Delete.cshtml" />
+    <Content Include="Views\QuestionEntities\Details.cshtml" />
+    <Content Include="Views\QuestionEntities\Edit.cshtml" />
+    <Content Include="Views\QuestionEntities\Index.cshtml" />
+    <Content Include="Views\QuestionAnswerEntities\Create.cshtml" />
+    <Content Include="Views\QuestionAnswerEntities\Delete.cshtml" />
+    <Content Include="Views\QuestionAnswerEntities\Details.cshtml" />
+    <Content Include="Views\QuestionAnswerEntities\Edit.cshtml" />
+    <Content Include="Views\QuestionAnswerEntities\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
